@@ -1,0 +1,46 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+}
+
+a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.header-content, .logo-and-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    padding: 2px;
+}
+
+.information {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.information h1 {
+    margin-bottom: 30px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
