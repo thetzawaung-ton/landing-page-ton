@@ -8,7 +8,7 @@ body {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    padding: 0 100px;
+    padding: 0 150px;
 }
 
 a {
@@ -22,6 +22,30 @@ a {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
+}
+
+.header-content {
+    gap: 20px;
+}
+
+.header-content div {
+    width: 450px;
+}
+
+#title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.sec-font {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .sign-up {
