@@ -59,12 +59,23 @@ a {
     padding: 20px;
 }
 
-.information h1 {
-    margin-bottom: 30px;
-}
-
 .image-container {
     display: flex;
     justify-content: center;
     gap: 25px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+img {
+    border: 1px solid rgb(9, 106, 145);
+}
+
+.information h1 {
+    font-size: 36px;
+    color: #1F2937;
+    margin-bottom: 30px;
+    font-weight: 900;
 }
