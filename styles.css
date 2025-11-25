@@ -50,7 +50,8 @@ a {
 
 .sign-up-button {
     background-color: #3882f6;
-    padding: 2px;
+    padding: 6px 18px;
+    border-radius: 6px;
 }
 
 .information {
@@ -71,6 +72,7 @@ a {
 
 img {
     border: 1px solid rgb(9, 106, 145);
+    border-radius: 10px;
 }
 
 .information h1 {
@@ -110,6 +112,7 @@ img {
     align-items: center;
     background-color: #3882f6;
     padding: 20px;
+    border-radius: 15px;
 }
 
 .sign-up-text p {
