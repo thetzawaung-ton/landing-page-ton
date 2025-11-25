@@ -13,8 +13,8 @@ body {
 
 a {
     margin-left: 20px;
-    color: white;
     text-decoration: none;
+    color: #e5e7eb;
 }
 
 .header-content, .logo-and-links {
@@ -51,7 +51,9 @@ a {
 .sign-up-button {
     background-color: #3882f6;
     padding: 6px 18px;
+    border: 2px solid #e5e7eb;
     border-radius: 6px;
+    color: #e5e7eb;
 }
 
 .information {
@@ -117,6 +119,7 @@ img {
 
 .sign-up-text p {
     margin: 0;
+    color: #e5e7eb;
 }
 
 #big-p {
@@ -128,4 +131,5 @@ img {
     background-color: #1F2937;
     text-align: center;
     padding: 20px;
+    color: #e5e7eb;
 }
