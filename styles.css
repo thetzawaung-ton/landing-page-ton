@@ -48,7 +48,7 @@ a {
     color: #f9faf8;
 }
 
-.sign-up {
+.sign-up-button {
     background-color: #3882f6;
     padding: 2px;
 }
@@ -78,4 +78,45 @@ img {
     color: #1F2937;
     margin-bottom: 30px;
     font-weight: 900;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px 220px;
+}
+
+.quote-text{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.quote-author {
+    font-size: 22px;
+    align-self: flex-end;
+}
+
+.sign-up{
+    padding: 75px 150px;
+}
+
+.sign-up-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 20px;
+}
+
+.sign-up-text p {
+    margin: 0;
+}
+
+#big-p {
+    font-size: 20px;
+    font-weight: 800;
 }
